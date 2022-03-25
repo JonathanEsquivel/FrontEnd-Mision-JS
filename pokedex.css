@@ -1,0 +1,60 @@
+body{
+    background: rgb(70, 67, 67);
+    display: flex;
+    justify-content: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+.pokedex {
+    width: 500px; 
+    height: 900px; 
+    background: #d13131;
+    margin: 10px;
+    display: grid;
+    align-items: center;
+    border-radius: 10px;
+    
+}
+.pantallaNombre {
+    
+    margin: 0 auto;
+    width: 450px; 
+    height: 50px; 
+    background: #ffffff;
+    text-align: center;
+}
+.pokeName {
+    margin: 0 auto;
+    font-size: 30px;
+    text-align: center;
+    outline: 0px;
+    width: 310px; 
+    border: 0px;
+}
+.boton {
+    background-color: transparent;
+    border: 0px;
+    margin-top: 5px;
+}
+.pantallaImagen{
+    size: 10px;
+    margin: 0 auto;
+    text-align: center;
+    width: 250px; 
+    height: 200px;
+    background-color: white;
+    align-items: center;
+}
+.pantallaDetalles{
+    margin: 0 auto;
+    text-align: center;
+    width: 450px; 
+    height: 500px;
+    background-color: white;
+}
+.nombre{
+    font-size: 20px;
+}
+.titulo{
+    margin: 0 auto;
+    text-align: center;
+}
